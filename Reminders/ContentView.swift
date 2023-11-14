@@ -49,6 +49,18 @@ struct ContentView: View {
                 
             }
             .listStyle(.plain)
+            Spacer()
+            HStack{
+            Image(systemName: "plus.circle.fill")
+                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                    .fontWeight(.medium)
+                    .font(.title2)
+                Text("New Reminder")
+                    .foregroundStyle(.blue)
+                    .fontWeight(.medium)
+                    .font(.title2)
+            }
+            
         }
         .padding()
     }
